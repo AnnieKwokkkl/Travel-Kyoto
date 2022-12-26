@@ -1,0 +1,41 @@
+body {
+	background-color: #2b2b2b;
+	color: aliceblue;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+}
+
+.image {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+}
+
+.box1 {
+	display: grid;
+	grid-row: 1/4;
+}
+
+.box2 {
+	display: grid;
+	grid-row: 1/2;
+}
+
+.box3 {
+	display: grid;
+	grid-row: 2/3;
+}
+
+.box5 {
+	display: grid;
+	grid-row: 3/4;
+}
+
+footer {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+}
